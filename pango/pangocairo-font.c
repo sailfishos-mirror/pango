@@ -839,6 +839,11 @@ compute_glyph_extents (PangoCairoFontPrivate  *cf_priv,
   entry->ink_rect.y = pango_units_from_double (extents.y_bearing);
   entry->ink_rect.width = pango_units_from_double (extents.width);
   entry->ink_rect.height = pango_units_from_double (extents.height);
+
+  g_print ("compute glyph (%u) extents: %g %g %g %g\n",
+           glyph,
+           extents.x_bearing, extents.y_bearing,
+           extents.width, extents.height);
 }
 
 static PangoCairoFontGlyphExtentsCacheEntry *
