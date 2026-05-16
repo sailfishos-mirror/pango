@@ -452,6 +452,10 @@ prefix ## _register_type (GTypeModule *module)				  \
 
 #endif /* __GI_SCANNER__ */
 
+G_DEFINE_AUTOPTR_CLEANUP_FUNC (PangoEngineShape, g_object_unref)
+G_DEFINE_AUTOPTR_CLEANUP_FUNC (PangoEngineLang, g_object_unref)
+G_DEFINE_AUTOPTR_CLEANUP_FUNC (PangoEngine, g_object_unref)
+
 G_END_DECLS
 
 #endif /* __PANGO_ENGINE_H__ */
