@@ -2,7 +2,7 @@
 directory = sysprof
 url = https://gitlab.gnome.org/GNOME/sysprof.git
 push-url = ssh://git@ssh.gitlab.gnome.org:GNOME/sysprof.git
-revision = master
+revision = 50.0
 depth = 1
 
 [provide]
