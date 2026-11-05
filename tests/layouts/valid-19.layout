@@ -202,6 +202,7 @@
                 "glyph" : 268435455,
                 "width" : 0,
                 "is-cluster-start" : true,
+                "unsafe-to-break" : true,
                 "log-cluster" : 4
               }
             ]
@@ -278,6 +279,7 @@
                 "glyph" : 268435455,
                 "width" : 0,
                 "is-cluster-start" : true,
+                "unsafe-to-break" : true,
                 "log-cluster" : 4
               }
             ]
@@ -588,12 +590,14 @@
                 "glyph" : 268435455,
                 "width" : 0,
                 "is-cluster-start" : true,
+                "unsafe-to-break" : true,
                 "log-cluster" : 16
               },
               {
                 "glyph" : 268435455,
                 "width" : 0,
                 "is-cluster-start" : true,
+                "unsafe-to-break" : true,
                 "log-cluster" : 20
               }
             ]
